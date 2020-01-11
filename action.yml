@@ -1,0 +1,13 @@
+name: 'setenvdir'
+description: 'Set a Github environment variable to a path'
+inputs:
+  path:
+    description: 'A string representing a path with either forward or backslashes as separators'
+    required: true
+    default: '/dev/null'
+outputs:
+  path:
+    description: 'A path with forward slashes as separators'
+runs:
+  using: 'node12'
+  main: 'index.js'

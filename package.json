@@ -1,0 +1,24 @@
+{
+  "name": "setenvdir",
+  "version": "1.0.0",
+  "description": "Github action for setting an environment variable to a forward-slashed path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwbyrd/setenvdir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnwbyrd/setenvdir/issues"
+  },
+  "homepage": "https://github.com/johnwbyrd/setenvdir#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/github": "^2.0.1"
+  }
+}
