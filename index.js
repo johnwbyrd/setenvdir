@@ -6,7 +6,7 @@ try {
   outputPath = inputPath;
   outputPath = str.replace(/\\/g, inputPath);
   core.setOutput('path', outputPath);
-  core.exportVariable('CMAKE_INSTALL_DIR', outputPath.concat('/install');
+  core.exportVariable('CMAKE_INSTALL_DIR', outputPath.concat('/install'));
 } catch (error) {
   core.setFailed(error.message);
 }
